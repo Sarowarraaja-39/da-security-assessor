@@ -1,0 +1,10 @@
+# Example configuration for DA Security Assessor
+
+eth_rpc: "https://mainnet.infura.io/v3/e66d5062d0d74d32987dc23fa08211fa"
+
+addresses:
+  - "0x742d35Cc6634C0532925a3b844Bc454e4438f44e"
+  - "0x53d284357ec70cE289D6D64134DfAc8E511c8a3D"
+
+contracts:
+  - "0xBB9bc244D798123fDe783fCc1C72d3Bb8C189413"
