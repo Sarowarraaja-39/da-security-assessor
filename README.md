@@ -39,7 +39,7 @@ The project is designed as an extensible foundation for integrating advanced Web
 
 ## Architecture
 
-<img width="1312" height="1199" alt="DE-Architecture" src="https://github.com/user-attachments/assets/942c7e1d-173c-4081-a312-fda0baff8e5d" />
+<img width="1312" height="1199" alt="DE-Architecture" src="https://github.com/user-attachments/assets/17c0e57b-9fc9-4d35-ad71-cb14cbac5967" />
 
 ## Technology Stack
 
@@ -55,8 +55,7 @@ The project is designed as an extensible foundation for integrating advanced Web
 
 ## Project Structure
 
-<img width="1312" height="1199" alt="DE-Project structure" src="https://github.com/user-attachments/assets/9b9a62ff-e48a-45bb-bce4-7ec8b766613a" />
-
+<img width="1312" height="1199" alt="DE-Project structure" src="https://github.com/user-attachments/assets/c4f39ad0-54ed-4291-ac77-7cd399630671" />
 
 ## How It Works
 
