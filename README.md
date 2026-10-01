@@ -39,6 +39,8 @@ The project is designed as an extensible foundation for integrating advanced Web
 
 ## Architecture
 
+<img width="2322" height="612" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/f065712b-fa0f-4832-8001-cd80805b267b" />
+
 ```text
                     ┌─────────────────────┐
                     │   YAML Configuration │
