@@ -39,40 +39,7 @@ The project is designed as an extensible foundation for integrating advanced Web
 
 ## Architecture
 
-<img width="2322" height="612" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/f065712b-fa0f-4832-8001-cd80805b267b" />
-
-```text
-                    ┌─────────────────────┐
-                    │   YAML Configuration │
-                    │  RPC / Wallets /     │
-                    │  Smart Contracts     │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │      main.py        │
-                    │   Assessment CLI     │
-                    └──────────┬──────────┘
-                               │
-                 ┌─────────────┴─────────────┐
-                 ▼                           ▼
-       ┌──────────────────┐        ┌──────────────────┐
-       │  Wallet Checker  │        │ Contract Scanner │
-       │    Web3.py       │        │ Security Engine  │
-       └────────┬─────────┘        └────────┬─────────┘
-                │                           │
-                └─────────────┬─────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │   Report Generator  │
-                    │      Jinja2         │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │ Markdown Assessment │
-                    │       Report        │
-                    └─────────────────────┘
-```
+<img width="1312" height="1199" alt="DE-Architecture" src="https://github.com/user-attachments/assets/942c7e1d-173c-4081-a312-fda0baff8e5d" />
 
 ## Technology Stack
 
@@ -88,28 +55,8 @@ The project is designed as an extensible foundation for integrating advanced Web
 
 ## Project Structure
 
-```text
-da-security-assessor/
-│
-├── main.py
-├── requirements.txt
-├── LICENSE
-│
-├── config/
-│   └── config.yaml
-│
-├── templates/
-│   └── template.md.j2
-│
-├── da_security_assessor/
-│   ├── __init__.py
-│   ├── utils.py
-│   ├── wallet_checker.py
-│   ├── contract_scanner.py
-│   └── report_generator.py
-│
-└── reports/
-```
+<img width="1312" height="1199" alt="DE-Project structure" src="https://github.com/user-attachments/assets/9b9a62ff-e48a-45bb-bce4-7ec8b766613a" />
+
 
 ## How It Works
 
